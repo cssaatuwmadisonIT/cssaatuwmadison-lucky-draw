@@ -26,7 +26,7 @@ class LotteryPool extends Component {
     return (
       <div className="lottery-pool">
         <header>抽奖池设置</header>
-        <section>每一行表示一名参与者（格式：‘抽奖码 抽奖码’）
+        <section>每一行表示一名参与者（格式：‘抽奖码 抽奖码’ 或 ‘抽奖码 姓名’）
           <span className={'load_demo'} >
             <FontAwesomeIcon icon={faQuestionCircle} />
             <a onClick={this.loadDemoData}>加载示例数据</a>

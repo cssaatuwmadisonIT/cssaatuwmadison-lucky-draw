@@ -1,6 +1,8 @@
 # CSSA at UW-Madison 抽奖平台
 供CSSA at UW-Madison内部使用的通用抽奖平台
+
 A generalized lucky draw tool for CSSA at UW-Madison internal use
+
 This is a custom built software based on https://github.com/geekeren/Magpie-LuckyDraw. 
 
 ### 支持特性
@@ -14,8 +16,8 @@ This is a custom built software based on https://github.com/geekeren/Magpie-Luck
 ### 使用
 
 ```
-git clone git@github.com:geekeren/Magpie-LuckyDraw.git
-cd Magpie-LuckyDraw
+git clone https://github.com/cssaatuwmadisonIT/cssaatuwmadison-lucky-draw.git
+cd cssaatuwmadison-lucky-draw
 yarn install
 yarn start
 ```
@@ -23,4 +25,4 @@ yarn start
 - 产品环境构建命令：`yarn dist`
 - Production build w/ electron: `yarn dist:win` or `yarn dist:mac`
 
-Copyright (C) 2022  孙旭翔 (Xuxiang Sun) All Rights Reserved.
+Copyright (C) 2022 Xuxiang Sun (孙旭翔) All Rights Reserved.
