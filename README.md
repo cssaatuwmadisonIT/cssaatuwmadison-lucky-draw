@@ -12,6 +12,11 @@ This is a custom built software based on https://github.com/geekeren/Magpie-Luck
 - [x] 奖项编辑：奖项数设置、奖项的编辑以及抽取的出场顺序
 - [x] 灾难恢复，意外退出浏览器页面时，二次访问时可以恢复上次抽奖信息
 - [x] 支持Windows、Linux、MacOSX、网页端、Docker等多平台
+### 待添加功能
+- 重新抽奖
+> 情况：抽奖结果是非法的（不存在、未到场的中奖者）需要重新抽奖
+>> 思路：添加一个按钮，设计route handler实现重抽
+
 
 ### 使用
 
