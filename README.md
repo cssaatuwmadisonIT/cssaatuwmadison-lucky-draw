@@ -13,6 +13,14 @@ This is a custom built software based on https://github.com/geekeren/Magpie-Luck
 - [x] 灾难恢复，意外退出浏览器页面时，二次访问时可以恢复上次抽奖信息
 - [x] 支持Windows、Linux、MacOSX、网页端、Docker等多平台
 
+### 待添加
+- 重抽功能
+> 功能简要：在**非法**的抽奖结果出现后，能以**单机按钮**的形式在**当前奖池**进行新一轮的抽奖
+#### 设计思路
+- 结构/流程分析
+- 按钮/Routehandler设计
+- 布局
+
 ### 使用
 
 ```
