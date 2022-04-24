@@ -77,8 +77,11 @@ class LotteryDrawing extends Component {
     }
 
   };
-  //bug exists: if users double click the button too fast, the buttons will lose focus (cannot respond to click event)
+  
   onRedrawClick = () => {
+    if(this.state.bufferWinner == null){
+      return;
+    }
     this.state.currentPrize = this.state.bufferWinner.prize; // uncessary mutatation?
     this.state.bufferWinner = null;
     //this.props.history.push("/lottery-drawing");
@@ -151,9 +154,6 @@ class LotteryDrawing extends Component {
 
   //revert the result of last drawing if the user click the redraw button
   getRedrawButton = () => {
-    if (this.state.noPrize) {
-      return null;
-    }
     if (this.drawService) {
       return "重新抽奖";
     }

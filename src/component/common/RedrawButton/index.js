@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+//redraw button is a bit misplaced. Fix it later.
 class RedrawButton extends Component {
   render() {
     return (
