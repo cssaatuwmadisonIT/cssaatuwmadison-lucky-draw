@@ -34,8 +34,8 @@ class LotteryDrawing extends Component {
           <div className={'rolling'}>
             {this.getContent()}
           </div>
-          <button className={this.state.btnDisabled ? "wait" : ""} disabled={this.state.btnDisabled} onClick={this.onProgressClick.bind(this)}>{this.getProgressButton()}</button>
-          <button className={this.state.btnDisabled ? "wait" : ""} disabled={this.state.btnDisabled} onClick={this.onRedrawClick.bind(this)}>{this.getRedrawButton()}</button>
+          <section><button className={this.state.btnDisabled ? "wait" : ""} disabled={this.state.btnDisabled} onClick={this.onProgressClick.bind(this)}>{this.getProgressButton()}</button></section>
+          <section><button className={this.state.btnDisabled ? "wait" : ""} disabled={this.state.btnDisabled} onClick={this.onRedrawClick.bind(this)}>{this.getRedrawButton()}</button></section>
         </div>
       </div>
     );
